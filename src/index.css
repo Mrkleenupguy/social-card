@@ -11,3 +11,71 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.card {
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px slategrey;
+  height: 100%;
+  width: 600px;
+  margin: 50px;
+  padding: 0px 10px;
+  text-align: left; 
+  display: flex;
+  flex-direction: row;
+}
+
+.userInfo {
+  display: flex;
+}
+
+.userImage {
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+}
+
+.userName {
+  width: 400px;
+}
+
+.cardContent {
+  font-size: 2em;
+}
+
+.contentPreview {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.socialButtons {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid grey;
+}
+
+.socialButton {
+  display: flex;
+  margin: 20px 0px;
+  width: 150px;
+}
+
+button {
+  width: 120px;
+  background-color: #a76ded;
+  border: 0px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px slategrey;
+  outline: none;
+}
+
+button:hover {
+  background-color: #d0a8ff;
+}
+
+button:active {
+  box-shadow: -1px -1px 5px slategrey;
+}
+
+.socialButton > p {
+  margin-left: 10px;
+}
